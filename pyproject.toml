@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gemini-cli"
+version = "0.1.0"
+description = ""
+authors = ["x404xx <ghost.py@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pygments = "^2.18.0"
+python-dotenv = "^1.0.1"
+six = "^1.16.0"
+colorama = "^0.4.6"
+termcolor = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
